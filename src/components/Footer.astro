@@ -1,0 +1,19 @@
+---
+import Social from './Social.astro';
+const platform = "github";
+const username = "ptiwari2407";
+const fb_platform = "facebook";
+const fb_username = "anshu.tiwari.330"
+---
+<style>
+    footer {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+
+<footer>
+    <Social platform={platform} username={username} />
+    <Social platform={fb_platform} username={fb_username} />
+  </footer>
